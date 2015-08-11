@@ -1,4 +1,4 @@
-# Chef Core Cookbook
+# Chef Core Library Cookbook
 
 ## Description
 Shared Chef Ruby Libraries.
@@ -8,4 +8,4 @@ Shared Chef Ruby Libraries.
 * Windows
 
 ## Testing
-Use core_base to test this cookbook.
+Use Chef Core [Config Examples](https://github.com/chefcore/config_examples) for testing with Test Kitchen.
