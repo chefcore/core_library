@@ -14,10 +14,10 @@ module ChefCore
       Chef::Log.warn('')
     end
 
-    def self.announce(description, &block)
-      self.header(description)
+    def self.announce(description, &_block)
+      header(description)
       yield
-      self.footer(description)
+      footer(description)
     end
 
     def self.report(message)
