@@ -29,6 +29,9 @@ module ChefCore
     end
 
     def self.action(message)
+      # log message do
+      #   level :warn
+      # end
       Chef::Log.warn("ACTION: #{message}")
     end
 
